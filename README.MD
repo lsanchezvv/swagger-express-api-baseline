@@ -21,3 +21,8 @@ The `operationId` is the exported name function for the controller.
 The `basePath` property is optional, in case you need your endpoint to have a base path.
 
 Visit https://swagger.io/specification/v2/ for more information on how to use the open API specification.
+
+# Published using heroku
+To call the endpoint example visit: https://swagger-express-api-baseline.herokuapp.com/v1/hello
+
+To see the api documentation: https://swagger-express-api-baseline.herokuapp.com/v1/hello
