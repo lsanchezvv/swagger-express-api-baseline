@@ -1,6 +1,7 @@
 # swagger-express-api-baseline
 
-Creates a simple swagger express API endpoint baseline using nodejs.
+Want to write your endpoint and the documentation for it at the same time? You can try swagger-node-runner.
+This project creates a simple swagger express API endpoint baseline using nodejs.
 
 The main goal of this project is to quickly spin up a project that allows you to define api's using the OpenApi Specification.
 
