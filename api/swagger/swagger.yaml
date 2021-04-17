@@ -1,0 +1,32 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: swagger-api
+basePath: /v1
+schemes:
+  - http
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /hello:
+    x-swagger-router-controller: hello-controller
+    get:
+      description: Returns a hello world!
+      operationId: helloWorld
+      responses:
+        "200":
+          description: Success.
+        "400":
+          description: Bad request.
+        "404": 
+          description: Not found.
+ # This makes it so you can get the swagger file from /api/v1/swagger.
+  /swagger:
+    x-swagger-pipe: swagger_raw
+
+# # complex objects have schema definitions
+# definitions:
+
